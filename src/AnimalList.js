@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class AnimalList extends Component {
+export default class AnimalsList extends Component {
   render() {
     return (
       <React.Fragment>

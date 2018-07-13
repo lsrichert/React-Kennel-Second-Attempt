@@ -30,7 +30,7 @@ export default class Kennel extends Component {
       <React.Fragment>
         <LocationList locations={this.state.locations} />
         <EmployeeList employees={this.state.employees} />
-        <AnimalList employees={this.state.employees} />
+        <AnimalList animals={this.state.animals} />
       </React.Fragment>
     );
   }
