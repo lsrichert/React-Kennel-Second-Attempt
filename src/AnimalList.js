@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-export default class LocationList extends Component {
+export default class AnimalList extends Component {
   render() {
     return (
       <React.Fragment>
-        {this.props.locations.map(location => <div>{location.name}</div>)}
+        {this.props.animals.map(animal => <div>{animal.name}</div>)}
       </React.Fragment>
     );
   }
